@@ -3,7 +3,15 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+.header {
+    background: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
 /* header and navigation styles */
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -12,7 +20,7 @@ nav {
 
 nav li {
     list-style: none;
-    margin-left: 50px;
+    margin-right: 50px;
 }
 
 nav ul {
@@ -42,7 +50,7 @@ nav ul {
     font-size: 20px;
     line-height: 27px;
     color: #FFFFFF;
-    margin-left: 50px;
+
 }
 
 /* banner */
@@ -83,5 +91,52 @@ nav ul {
     font-size: 18px;
     line-height: 30px;
     margin-bottom: 30px;
-    
+
+}
+
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* about section styles */
+.about {
+
+    text-align: center;
+    margin-top: 130px;
+    background-color: #f3fff9;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+
+.section-title {
+
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+}
+
+section.description {
+    color: #757575;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+/* about-info section */
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.about .info-title {
+    font-size: 20px;
+    color: #757575;
+}
+
+.info-description {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
 }
