@@ -15,7 +15,7 @@
 nav {
     display: flex;
     justify-content: space-between;
-    margin: 51px 200px;
+    padding: 51px 200px;
 }
 
 nav li {
@@ -244,7 +244,7 @@ section.description {
     text-align: center;
 }
 /* contact styles  */
-.contact{
+.contact
     padding: 130px 200px;
     display: flex;
     gap: 100px;
