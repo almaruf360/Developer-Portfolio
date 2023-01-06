@@ -50,6 +50,7 @@ nav ul {
     font-size: 20px;
     line-height: 27px;
     color: #FFFFFF;
+    
 
 
 }
@@ -241,4 +242,32 @@ section.description {
 .resume-button{
     margin-top: 50px;
     text-align: center;
+}
+/* contact styles  */
+.contact{
+    padding: 130px 200px;
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3
+    
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%px;
+    padding: 18px 30px;
+    
+}
+.input{
+    height: 64px;
+}
+.contact .section-description{
+    margin-bottom: 20px;
+} 
+.contact a{
+    text-decoration: none;
+    margin: 5px;
 }
